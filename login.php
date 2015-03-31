@@ -6,10 +6,14 @@
 </head>
 
 <body>
+
+<!--j'ai nomer ton div pour ajouter au css un attribut center !-->
+<div id="signup"> 
   <p>
     <?php
 
 echo'<div> 
+
 <section>
 <form class="form" post="method" action="inscriptions.php">
   <p>
