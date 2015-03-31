@@ -1,4 +1,3 @@
-<!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -7,8 +6,10 @@
 </head>
 
 <body>
+  <p>
+    <?php
 
-<div> 
+echo'<div> 
 <section>
 <form class="form" post="method" action="inscriptions.php">
   <p>
@@ -35,6 +36,8 @@
 
 
        </section>
-</div>
+</div>'
+?>
+</p>
 </body>
-</htm>
+</html>
