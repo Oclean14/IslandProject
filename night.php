@@ -26,7 +26,8 @@
                     echo "<td class=\"time\" rowspan=\"2\">".$heure."h</td>";
             }
             echo "<td>";
-            if(isset($rdv[$jour[$i+1]][$heure])) {
+            if(isset($rdv[$jour[$i+1]][$heure]))
+            {
                 echo $rdv[$jour[$i+1]][$heure];
             }
             echo "</td>";
