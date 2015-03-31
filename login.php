@@ -13,15 +13,15 @@ echo'<div>
 <section>
 <form class="form" post="method" action="inscriptions.php">
   <p>
-    <label for="nom">Nom :</label>
+    <label id="nom">Nom :</label>
     <input type="text" id="nom" /><br />
-    <label for="prenom">Prénom :</label>
+    <label id="prenom">Prénom :</label>
     <input type="text" id="prenom" /><br />
-    <label for="mdp">Mot de passe :</label>
+    <label id="mdp">Mot de passe :</label>
     <input type="password" id="mdp" /> <br/>
-    <label for="mdp">Confirmez votre mot de passe :</label>
+    <label id="mdp">Confirmez votre mot de passe :</label>
     <input type="password" id="mdp" /><br/>
-        <label for="email"> E-Mail </label>
+        <label id="email"> E-Mail </label>
     <input type="email" id="email" /><br/><br/>
     
     
