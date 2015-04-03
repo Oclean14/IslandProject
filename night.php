@@ -17,13 +17,14 @@
     for($x = 1; $x < 8; $x++)
         echo "<th>".$jour[$x]."</th>";
     echo "</tr>";
-    for($j = 18; $j < 24; $j += 0.5) {
+    for($j = 18; $j < 30; $j += 0.5) {
         echo "<tr>";
         for($i = 0; $i < 7; $i++) {
-            if($i == 0) {
+            if($i == 0)
+            {
                 $heure = str_replace(".5", ":30", $j);
                 if(substr($heure,-3,3) != ":30")
-                    echo "<td class=\"time\" rowspan=\"2\">".$heure."h</td>";
+                    echo "<td class=\"time\" rowspan=\"2\">".($heure % 24)."h</td>";
             }
             echo "<td>";
             if(isset($rdv[$jour[$i+1]][$heure]))
