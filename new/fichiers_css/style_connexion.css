@@ -1,0 +1,137 @@
+
+.formulaire_connexion {
+    margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formulaire_connexion #username_form {
+    text-align: center;
+}
+
+.formulaire_connexion #btn_connexion {
+
+    background-color: #78909C;
+    border: 1px solid transparent;
+    border-bottom: 3px solid #37474F;
+    color: #fff;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+    text-shadow: 1px 1px 0px #283744;
+    font-size: 11pt;
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-weight: bold;
+
+}
+#btn_connexion {
+    background-color: #78909C;
+    border: 1px solid transparent;
+    border-bottom: 3px solid #37474F;
+    color: #fff;
+    display: inline-block;
+    width: 170px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+    text-shadow: 1px 1px 0px #283744;
+    font-size: 11pt;
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.connex1 {
+    position: relative;
+    color: #1c1a19;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 11pt;
+    font-family: century, arial,sans-serif;
+    
+    padding-top: 40px;
+}
+.cadrec {
+    position: relative;
+    width: 300px;
+    height: 343px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+
+    border-width: 1px;
+    ;
+    border-color: black;
+    border-radius: 4px;
+    
+}
+.contentgc {
+    position: absolute;
+    margin-bottom: 100px;
+    width: 300px;
+    background-color: #E0E0E0;
+    height: 343px;
+    box-shadow: inset 0 0 2px #1c1a19;
+    border-radius: 4px 0 0 4px;
+
+}
+.formulaire_connexion .center {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+    text-shadow: 1px 1px 0px #283744;
+    font-size: 11pt;
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-weight: bold;
+    /* background-image: url('fond_form_connex.png'); */
+    background-repeat: no-repeat;
+    background-position: 50% 190%;
+    margin-top: 200px;
+}
+.message {
+    text-align: center;
+    padding-top: 7%;
+    font-size: 40px;
+    text-shadow: 0px 0px 30px black;
+    margin: 0px;
+    font-family: Calibri;
+    color: white;
+}
+.message .btn_rtr_accueil {
+    background-color: #78909C;
+    border: 1px solid transparent;
+    border-bottom: 3px solid #37474F;
+    color: #fff;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+    text-shadow: 1px 1px 0px #283744;
+    font-size: 11pt;
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+.wall {
+    /* background-image: url('wall3.jpg'); */
+}
+
+@media only screen and (max-width : 1400px) {
+    .message {
+    padding-top: 20%;
+}
+}
+
+@media only screen and (max-width : 450px) {
+    .formulaire_connexion {
+        margin-top: 7%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
