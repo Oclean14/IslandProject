@@ -4,24 +4,27 @@ caption /* Titre du tableau */
     font-family: Arial, Times, "Times New Roman", serif;
     font-weight: bold;
     font-size: 1.2em;
-    color: #009900;
+        color: #1c3e66;
+    border-radius:5px;
     margin-bottom: 20px; /* Pour éviter que le titre ne soit trop collé au tableau en-dessous */
 }
 
 table /* Le tableau en lui-même */
         {
+    border-radius:5px;
+
     margin: auto; /* Centre le tableau */
-    border: 4px outset green; /* Bordure du tableau avec effet 3D (outset) */
+    border: 4px outset #0b3666; /* Bordure du tableau avec effet 3D (outset) */
     border-collapse: collapse; /* Colle les bordures entre elles */
-    width:100%;
+    width:40%;
 }
 th /* Les cellules d'en-tête */
         {
-    background-color: #006600;
+    background-color: #0b3666;
     color: white;
     font-size: 1.1em;
     font-family: Arial, "Arial Black", Times, "Times New Roman", serif;
-    border:1px solid red;
+    border:1px solid #f2f3ff;
 }
 
 td /* Les cellules normales */
@@ -39,4 +42,25 @@ td.time
     font-size:1em;
     height:50px;
     width:100px;
+}
+#container
+{
+    width:80%;
+    padding:10% ;
+
+}
+
+#morning
+{
+    float:left;
+    margin-left:0;
+
+}
+#afternoon{
+    margin-right:0;
+}
+
+a{
+    color: #fbfaff;
+    text-decoration:none;
 }
